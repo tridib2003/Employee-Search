@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Web Application by Tridib</display-name>
+  <servlet>
+  	<servlet-name>GetEmployeeDetailsController</servlet-name>
+  	<display-name>GetEmployeeDetailsController</display-name>
+  	<description></description>
+  	<servlet-class>com.tridib.app.GetEmployeeDetailsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetEmployeeDetailsController</servlet-name>
+  	<url-pattern>/getEmpDetails</url-pattern>
+  </servlet-mapping>
+</web-app>
